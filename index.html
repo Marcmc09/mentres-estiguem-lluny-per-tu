@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover"
+    >
+
+    <meta
+        name="description"
+        content="Un petit espai per sentir-nos més a prop mentre estiguem lluny."
+    >
+
+    <meta name="theme-color" content="#fff8f6">
+
+    <title>Mentre estiguem lluny ❤️</title>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JAVASCRIPT -->
+    <script defer src="js/config.js"></script>
+    <script defer src="js/countdown.js"></script>
+    <script defer src="js/dailyMessages.js"></script>
+    <script defer src="js/surprises.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <!-- DECORACIÓN DE FONDO -->
+    <div class="background-decoration" aria-hidden="true">
+        <span class="background-circle background-circle--one"></span>
+        <span class="background-circle background-circle--two"></span>
+        <span class="background-circle background-circle--three"></span>
+    </div>
+
+
+background-circle background-circle--two"></span>
+        <span class="background    <!-- CONTENIDO PRINCIPAL -->
+    <main class="app">
+
+        <!-- CABECERA -->
+        <header class="hero">
+
+            <div class="hero__eyebrow">
+                <span class="hero__eyebrow-line"></span>
+
+                <span>Un petit regal per tu</span>
+
+                <span class="hero__eyebrow-line"></span>
+            </div>
+
+            <div class="hero__icon" aria-hidden="true">
+                <svg
+                    viewBox="0 0 64 64"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M32 54S10 41.6 10 24.3C10 15.8 15.5 10 23 10c4.6 0 7.5 2.2 9 5.1C33.5 12.2 36.4 10 41 10c7.5 0 13 5.8 13 14.3C54 41.6 32 54 32 54Z"
+                        fill="currentColor"
+                    />
+                </svg>
+            </div>
+
+            <h1 class="hero__title">
+                Mentre estiguem
+                <span>lluny</span>
+            </h1>
+
+            <p class="hero__subtitle">
+                Perquè la distància no ens faci sentir tan lluny.
+            </p>
+
+            <a
+                class="hero__scroll"
+                href="#compte-enrere"
+                aria-label="Baixar fins al compte enrere"
+            >
+                <span>Comença aquí</span>
+
+                <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M6 9l6 6 6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+            </a>
+
+        </header>
+
+
+        <!-- CONTADOR -->
+        <section
+            id="compte-enrere"
+            class="section countdown-section"
+            aria-labelledby="countdown-title"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-heading__overline">
+                    Cada vegada falta menys
+                </span>
+
+                <h2 id="countdown-title" class="section-heading__title">
+                    El nostre compte enrere
+                </h2>
+
+                <p class="section-heading__description">
+                    Fins que tornem a estar junts.
+                </p>
+
+            </div>
+
+
+            <div
+                id="countdown"
+                class="countdown"
+                aria-live="polite"
+                aria-label="Compte enrere fins que tornem a estar junts"
+            >
+
+                <div class="countdown__item">
+                    <span
+                        id="countdown-days"
+                        class="countdown__number"
+                    >
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Dies
+                    </span>
+                </div>
+
+                <span class="countdown__separator" aria-hidden="true">
+                    :
+                </span>
+
+                <div class="countdown__item">
+                    <span
+                        id="countdown-hours"
+                        class="countdown__number"
+                    >
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Hores
+                    </span>
+                </div>
+
+                <span class="countdown__separator" aria-hidden="true">
+                    :
+                </span>
+
+                <div class="countdown__item">
+                    <span
+                        id="countdown-minutes"
+                        class="countdown__number"
+                    >
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Minuts
+                    </span>
+                </div>
+
+                <span class="countdown__separator" aria-hidden="true">
+                    :
+                </span>
+
+                <div class="countdown__item">
+                    <span
+                        id="countdown-seconds"
+                        class="countdown__number"
+                    >
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Segons
+                    </span>
+                </div>
+
+            </div>
+
+
+            <p id="countdown-message" class="countdown-message">
+                Cada segon és un segon menys per tornar-te a abraçar.
+            </p>
+
+        </section>
+
+
+        <!-- MENSAJE DEL DÍA -->
+        <section
+            class="section daily-section"
+            aria-labelledby="daily-message-title"
+        >
+
+            <article class="card daily-card">
+
+                <div class="card__top">
+
+                    <div class="card__icon card__icon--message" aria-hidden="true">
+                        <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M12 21s-8-4.5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6.5-8 11-8 11Z"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+
+                    <div>
+                        <span class="card__eyebrow">
+                            Una cosa cada dia
+                        </span>
+
+                        <h2 id="daily-message-title" class="card__title">
+                            El missatge d’avui
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="daily-card__content">
+
+                    <span
+                        id="daily-message-date"
+                        class="daily-card__date"
+                    >
+                        Avui
+                    </span>
+
+                    <blockquote
+                        id="daily-message"
+                        class="daily-card__quote"
+                    >
+                        Encara que avui estiguem lluny, hi ha una part de mi
+                        que continua al teu costat.
+                    </blockquote>
+
+                </div>
+
+
+                <div class="card__footer">
+
+                    <span class="card__footer-line"></span>
+
+                    <span class="card__footer-heart" aria-hidden="true">
+                        ♥
+                    </span>
+
+                    <span class="card__footer-line"></span>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- SORPRESA PRINCIPAL -->
+        <section
+            class="section featured-surprise-section"
+            aria-labelledby="featured-surprise-title"
+        >
+
+            <div class="section-heading section-heading--compact">
+
+                <span class="section-heading__overline">
+                    Alguna cosa especial
+                </span>
+
+                <h2
+                    id="featured-surprise-title"
+                    class="section-heading__title"
+                >
+                    Alguna sorpresa per tu
+                </h2>
+
+            </div>
+
+
+            <article
+                id="featured-surprise"
+                class="card surprise-card surprise-card--featured"
+            >
+
+                <div class="surprise-card__decoration" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+                <div class="surprise-card__status">
+
+                    <span
+                        id="featured-surprise-badge"
+                        class="status-badge status-badge--available"
+                    >
+                        Disponible avui
+                    </span>
+
+                </div>
+
+
+                <div class="surprise-card__icon" aria-hidden="true">
+                    <svg
+                        viewBox="0 0 64 64"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M13 28h38v27H13z"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linejoin="round"
+                        />
+
+                        <path
+                            d="M9 19h46v11H9z"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linejoin="round"
+                        />
+
+                        <path
+                            d="M32 19v36M24 19h16"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                        />
+
+                        <path
+                            d="M31.5 18.5C26 18 19 15.5 19 10.5 19 7.7 21.2 6 23.8 6c4.9 0 7.7 7.2 7.7 12.5Zm1 0C38 18 45 15.5 45 10.5 45 7.7 42.8 6 40.2 6c-4.9 0-7.7 7.2-7.7 12.5Z"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+
+
+                <span
+                    id="featured-surprise-number"
+                    class="surprise-card__number"
+                >
+                    Sorpresa 01
+                </span>
+
+                <h3
+                    id="featured-surprise-name"
+                    class="surprise-card__title"
+                >
+                    Una carta per començar
+                </h3>
+
+                <p
+                    id="featured-surprise-description"
+                    class="surprise-card__description"
+                >
+                    Hi ha coses que es diuen millor quan s’escriuen amb calma.
+                </p>
+
+
+                <a
+                    id="featured-surprise-button"
+                    class="button button--primary"
+                    href="pdf/sorpresa-01.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span>Obrir la sorpresa</span>
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M5 12h14M14 7l5 5-5 5"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- LISTADO DE SORPRESAS -->
+        <section
+            class="section surprises-section"
+            aria-labelledby="surprises-title"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-heading__overline">
+                    El que encara està per arribar
+                </span>
+
+                <h2 id="surprises-title" class="section-heading__title">
+                    Les nostres sorpreses
+                </h2>
+
+                <p class="section-heading__description">
+                    Cada una s’obrirà quan arribi el seu moment.
+                </p>
+
+            </div>
+
+
+            <div
+                id="surprises-list"
+                class="surprises-list"
+            >
+
+                <!-- SORPRESA 1 -->
+                <article class="surprise-item surprise-item--available">
+
+                    <div class="surprise-item__marker" aria-hidden="true">
+                        <span>01</span>
+                    </div>
+
+                    <div class="surprise-item__content">
+
+                        <div class="surprise-item__heading">
+
+                            <div>
+                                <span class="surprise-item__date">
+                                    3 d’agost
+                                </span>
+
+                                <h3 class="surprise-item__title">
+                                    Una carta per començar
+                                </h3>
+                            </div>
+
+                            <span
+                                class="surprise-item__status surprise-item__status--available"
+                            >
+                                Oberta
+                            </span>
+
+                        </div>
+
+                        <p class="surprise-item__description">
+                            Unes paraules per al primer dia que estiguem lluny.
+                        </p>
+
+                        <a
+                            class="surprise-item__link"
+                            href="pdf/sorpresa-01.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Llegir la carta
+
+                            <svg
+                                viewBox="0 0 24 24"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5 12h14M14 7l5 5-5 5"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.8"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SORPRESA 2 -->
+                <article class="surprise-item surprise-item--locked">
+
+                    <div class="surprise-item__marker" aria-hidden="true">
+                        <span>02</span>
+                    </div>
+
+                    <div class="surprise-item__content">
+
+                        <div class="surprise-item__heading">
+
+                            <div>
+                                <span class="surprise-item__date">
+                                    6 d’agost
+                                </span>
+
+                                <h3 class="surprise-item__title">
+                                    Un dia molt especial
+                                </h3>
+                            </div>
+
+                            <span
+                                class="surprise-item__status surprise-item__status--locked"
+                            >
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        x="5"
+                                        y="10"
+                                        width="14"
+                                        height="10"
+                                        rx="2"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                    />
+
+                                    <path
+                                        d="M8 10V7a4 4 0 0 1 8 0v3"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+
+                                Tancada
+                            </span>
+
+                        </div>
+
+                        <p class="surprise-item__description">
+                            Aquesta sorpresa encara necessita esperar una mica.
+                        </p>
+
+                        <p class="surprise-item__locked-message">
+                            S’obrirà el 6 d’agost
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SORPRESA 3 -->
+                <article class="surprise-item surprise-item--locked">
+
+                    <div class="surprise-item__marker" aria-hidden="true">
+                        <span>03</span>
+                    </div>
+
+                    <div class="surprise-item__content">
+
+                        <div class="surprise-item__heading">
+
+                            <div>
+                                <span class="surprise-item__date">
+                                    10 d’agost
+                                </span>
+
+                                <h3 class="surprise-item__title">
+                                    Per sentir-nos més a prop
+                                </h3>
+                            </div>
+
+                            <span
+                                class="surprise-item__status surprise-item__status--locked"
+                            >
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        x="5"
+                                        y="10"
+                                        >
+                                    <rect
+                                        x="5"
+                                        y="10"
+                                        width="14"
+                                        height="10"
+                                        rx="2"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                    />
+
+                                    <path
+                                        d="M8 10V7a4 4 0 0 1 8 0v3"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+
+                                Tancada
+                            </span>
+
+                        </div>
+
+                        <p class="surprise-item__description">
+                            Una petita cosa per als dies que ens trobem a faltar.
+                        </p>
+
+                        <p class="surprise-item__locked-message">
+                            S’obrirà el 10 d’agost
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SORPRESA 4 -->
+                <article class="surprise-item surprise-item--locked">
+
+                    <div class="surprise-item__marker" aria-hidden="true">
+                        <span>04</span>
+                    </div>
+
+                    <div class="surprise-item__content">
+
+                        <div class="surprise-item__heading">
+
+                            <div>
+                                <span class="surprise-item__date">
+                                    20 d’agost
+                                </span>
+
+                                <h3 class="surprise-item__title">
+                                    Ja queda menys
+                                </h3>
+                            </div>
+
+                            <span
+                                class="surprise-item__status surprise-item__status--locked"
+                            >
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        x="5"
+                                        y="10"
+                                        width="14"
+                                        height="10"
+                                        rx="2"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                    />
+
+                                    <path
+                                        d="M8 10V7a4 4 0 0 1 8 0v3"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+
+                                Tancada
+                            </span>
+
+                        </div>
+
+                        <p class="surprise-item__description">
+                            Una sorpresa per recordar tot el que ens espera.
+                        </p>
+
+                        <p class="surprise-item__locked-message">
+                            S’obrirà el 20 d’agost
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SORPRESA 5 -->
+                <article class="surprise-item surprise-item--locked">
+
+                    <div class="surprise-item__marker" aria-hidden="true">
+                        <span>05</span>
+                    </div>
+
+                    <div class="surprise-item__content">
+
+                        <div class="surprise-item__heading">
+
+                            <div>
+                                <span class="surprise-item__date">
+                                    29 d’agost
+                                </span>
+
+                                <h3 class="surprise-item__title">
+                                    Tornem a nosaltres
+                                </h3>
+                            </div>
+
+                            <span
+                                class="surprise-item__status surprise-item__status--locked"
+                            >
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        x="5"
+                                        y="10"
+                                        width="14"
+                                        height="10"
+                                        rx="2"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                    />
+
+                                    <path
+                                        d="M8 10V7a4 4 0 0 1 8 0v3"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+
+                                Tancada
+                            </span>
+
+                        </div>
+
+                        <p class="surprise-item__description">
+                            L’última sorpresa abans de tornar-nos a trobar.
+                        </p>
+
+                        <p class="surprise-item__locked-message">
+                            S’obrirà el 29 d’agost
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENSAJE FINAL -->
+        <section class="section final-message-section">
+
+            <div class="final-message">
+
+                <div class="final-message__heart" aria-hidden="true">
+                    <svg
+                        viewBox="0 0 64 64"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M32 54S10 41.6 10 24.3C10 15.8 15.5 10 23 10c4.6 0 7.5 2.2 9 5.1C33.5 12.2 36.4 10 41 10c7.5 0 13 5.8 13 14.3C54 41.6 32 54 32 54Z"
+                            fill="currentColor"
+                        />
+                    </svg>
+                </div>
+
+                <p class="final-message__text">
+                    No importa quants quilòmetres hi hagi.
+                    <strong>Tu continues sent el meu bebe.</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PIE DE PÁGINA -->
+        <footer class="footer">
+
+            <p class="footer__text">
+                Fet amb molt d’amor
+            </p>
+
+            <span class="footer__heart" aria-hidden="true">
+                ♥
+            </span>
+
+            <p class="footer__signature">
+                Sempre amb tu
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- MODAL PARA SORPRESAS BLOQUEADAS -->
+    <div
+        id="locked-modal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="locked-modal-title"
+        aria-describedby="locked-modal-description"
+        hidden
+    >
+
+        <div
+            id="modal-overlay"
+            class="modal__overlay"
+        ></div>
+
+        <div class="modal__content">
+
+            <button
+                id="modal-close"
+                class="modal__close"
+                type="button"
+                aria-label="Tancar"
+            >
+                <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M6 6l12 12M18 6 6 18"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                    />
+                </svg>
+            </button>
+
+            <div class="modal__icon" aria-hidden="true">
+                <svg
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <rect
+                        x="5"
+                        y="10"
+                        width="14"
+                        height="10"
+                        rx="2"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                    />
+
+                    <path
+                        d="M8 10V7a4 4 0 0 1 8 0v3"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                    />
+                </svg>
+            </div>
+
+            <span class="modal__eyebrow">
+                Encara no
+            </span>
+
+            <h2 id="locked-modal-title" class="modal__title">
+                Aquesta sorpresa està tancada
+            </h2>
+
+            <p id="locked-modal-description" class="modal__description">
+                Hauràs d’esperar una mica més per descobrir-la.
+            </p>
+
+            <p id="locked-modal-date" class="modal__date">
+                S’obrirà molt aviat
+            </p>
+
+            <button
+                id="modal-confirm"
+                class="button button--secondary"
+                type="button"
+            >
+                Esperaré amb paciència
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- AVISO PARA USUARIOS SIN JAVASCRIPT -->
+    <noscript>
+        <div class="noscript-message">
+            Aquesta pàgina necessita JavaScript per mostrar les sorpreses
+            i actualitzar el compte enrere.
+        </div>
+    </noscript>
+
+</body>
+</html>
