@@ -96,7 +96,7 @@ window.APP_CONFIG = {
 
     dailyMessages: [
         {
-            date: "2026-08-02",
+            date: "2026-08-01",
             text:
                 "Testimooo moltisisim, ets la millor."
         },
@@ -104,7 +104,7 @@ window.APP_CONFIG = {
         {
             date: "2026-08-02",
             text:
-                "Recorda que sempre estare per tu."
+                "Recorda que sempre estare per tu i que testimoo moltisism i ets la millor"
         },
 
         {
