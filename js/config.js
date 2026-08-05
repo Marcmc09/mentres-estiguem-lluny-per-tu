@@ -140,7 +140,7 @@ window.APP_CONFIG = {
         {
             date: "2026-08-08",
             text:
-                "Avui es un bon dia per recordar que ets la millor i que ets molt important per mi."
+                "Avui es un bon dia per recordar que ets la millor i que ets molt important per mi. Em fas molt feliç."
         },
 
         {
@@ -170,19 +170,19 @@ window.APP_CONFIG = {
         {
             date: "2026-08-13",
             text:
-                "Avui només volia dirte una cosa: et trobo a faltar amor."
+                "Avui només volia dirte una cosa: et trobo a faltar amor, vull veuret."
         },
 
         {
             date: "2026-08-14",
             text:
-                "Quan tornem, tindrem moltes coses a explicar-nos i a fer."
+                "Quan tornem, tindrem moltes coses a explicar-nos i a fer. Aixi que ves pensant jejejejej"
         },
 
         {
             date: "2026-08-15",
             text:
-                "Ja hem arribat a la meitat. Recorda que t'estimo moltissim mi bebe guapa."
+                "Ja hem arribat a la meitat. Recorda que t'estimo moltissim mi bebe guapa. M'encanta com em fas sentir."
         },
 
         {
@@ -206,61 +206,61 @@ window.APP_CONFIG = {
         {
             date: "2026-08-19",
             text:
-                "Demà acaba el teu super mega viatge, ja el farem jo i tu junts. "
+                "Quan em trobis a faltar avui, pensa en totes les coses que farem quan tornem a estar junts. "
         },
 
         {
             date: "2026-08-20",
             text:
-                "Avui tornes de Londres. Despres d'aquest gran viatge et toca tornar a gaudir del gran poble que es El Masnou!!"
+                "Hi ha persones que la sort li arriba diferent, i a mi mha arribat amb tu. Gracies per ser com ets i per fer-me sentir com em fas sentir."
         },
 
         {
             date: "2026-08-21",
             text:
-                "Despres del teu gran viatge, ara et toca a tu esperarme a mi 😎🥰"
+                "No sé com serà el moment de tornar-nos a veure, però sé que molara i sera especial perque estas tu🤓"
         },
 
         {
             date: "2026-08-22",
             text:
-                "Quan et trobi a faltar avui, pensaré en totes les coses que farem quan tornem a estar junts."
+                "Demà acaba el teu super mega viatge, ja el farem jo i tu junts 😉 " 
         },
 
         {
             date: "2026-08-23",
             text:
-                "Hi ha persones que la sort li arriba diferent, i a mi mha arribat amb tu. Gracies per ser com ets i per fer-me sentir com em fas sentir."
+                "Avui tornes de Londres. Despres d'aquest gran viatge et toca tornar a gaudir del gran poble que es El Masnou!!"
         },
 
         {
             date: "2026-08-24",
             text:
-                "Ja falta menys d’una setmana per veure el millor somriure del món."
+                "Ja falta menys d’una setmana per veure el millor somriure del món. T'estimooooo"
         },
 
         {
             date: "2026-08-25",
             text:
-                "No sé com serà el moment de tornar-nos a veure, però sé que molara🤓"
+                "Despres del teu gran viatge, ara et toca a tu esperarme a mi 😎🥰.Bona sort bebe."
         },
 
         {
             date: "2026-08-26",
             text:
-                "Queden molt pocs dies i moltes ganes de tornar a poder passar dies senser amb tu."
+                "Queden molt pocs dies i tinc moltes ganes de tornar a poder passar dies senser amb tu."
         },
 
         {
             date: "2026-08-27",
             text:
-                "Avui es un bon dia per recordar lo molt que testimo i lo molt que m’agrada estar amb tu."
+                "Avui es un bon dia per recordar lo molt que testimo i lo molt que m’agrada estar amb tu. Ets la millor."
         },
 
         {
             date: "2026-08-28",
             text:
-                "Només dos dies. Ja queda molt poc per poder tornar-te a abraçar."
+                "Només dos dies. Ja queda molt poc per poder tornar-te a abraçar. Grcaias per formar part de la meva vida"
         },
 
         {
@@ -381,7 +381,7 @@ window.APP_CONFIG = {
 
             number: "04",
 
-            unlockDate: "2026-08-21",
+            unlockDate: "2026-08-22",
 
             displayDate: "... d’agost",
 
