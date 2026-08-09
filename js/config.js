@@ -152,7 +152,7 @@ window.APP_CONFIG = {
         {
             date: "2026-08-10",
             text:
-                "Avui comença el meu viatge. Ja que no et puc portar a la maleta et portare al meu cor."
+                "Avui comença el meu viatge. Ja que no et puc portar a la maleta et portare al meu cor. Ojala puguessis venir🤓🫠"
         },
 
         {
