@@ -200,7 +200,7 @@ window.APP_CONFIG = {
         {
             date: "2026-08-18",
             text:
-                "Estar amb tu converteix un moment normal en un moment molt especial."
+                "Estar amb tu converteix un moment normal en un moment molt especial.Per aixo hauries de estar amb mi ara."
         },
 
         {
@@ -212,7 +212,7 @@ window.APP_CONFIG = {
         {
             date: "2026-08-20",
             text:
-                "Hi ha persones que la sort li arriba diferent, i a mi mha arribat amb tu. Gracies per ser com ets i per fer-me sentir com em fas sentir."
+                "Hi ha persones que la sort li arriba amb un 🍀, i a mi mha arribat amb tu. Gracies per ser com ets i per fer-me sentir com em fas sentir."
         },
 
         {
@@ -381,7 +381,7 @@ window.APP_CONFIG = {
 
             number: "04",
 
-            unlockDate: "2026-08-22",
+            unlockDate: "2026-08-24",
 
             displayDate: "... d’agost",
 
