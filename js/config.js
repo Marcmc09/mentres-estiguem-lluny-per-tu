@@ -404,7 +404,7 @@ window.APP_CONFIG = {
 
             number: "05",
 
-            unlockDate: "2026-08-25",
+            unlockDate: "2026-08-26",
 
             displayDate: "... d’agost",
 
