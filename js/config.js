@@ -4,7 +4,7 @@
 
    Aquí podrás cambiar:
    - Fechas
-   - Mensajes
+   - Mensajes. 
    - Sorpresas
    - Archivos PDF
    - Textos generales
@@ -381,7 +381,7 @@ window.APP_CONFIG = {
 
             number: "04",
 
-            unlockDate: "2026-08-21",
+            unlockDate: "2026-08-20",
 
             displayDate: "... d’agost",
 
