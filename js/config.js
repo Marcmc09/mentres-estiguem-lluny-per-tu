@@ -381,7 +381,7 @@ window.APP_CONFIG = {
 
             number: "04",
 
-            unlockDate: "2026-08-24",
+            unlockDate: "2026-08-21",
 
             displayDate: "... d’agost",
 
@@ -398,28 +398,6 @@ window.APP_CONFIG = {
             buttonText: "Obrir la sorpresa"
         },
 
-
-        {
-            id: "surprise-05",
-
-            number: "05",
-
-            unlockDate: "2026-08-26",
-
-            displayDate: "... d’agost",
-
-            title: "Una sorpresa, sorpresa🤓",
-
-            description:
-                "Una sorpresa preparada per a un dia especial. I que no has pugut ser-hi.",
-
-            featuredDescription:
-                "Una nova sorpresa que segurament no t'esperaves.",
-
-            pdf: "pdf/sorpresa-06.pdf",
-
-            buttonText: "Obrir la sorpresa"
-        },
        
         {
             id: "surprise-06",
